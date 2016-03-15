@@ -2,26 +2,27 @@ Initialize engine version: 5.3.2f1 (e87ab445ead0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 560 Ti   (ID=0x1200)
+    Renderer: NVIDIA Quadro K4200 (ID=0x11b4)
     Vendor:   NVIDIA
-    VRAM:     973 MB
+    VRAM:     3072 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.040 seconds
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Chance\Desktop\Dev\AR Keychain\Builds\AR Keychain_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\nborchers3\Desktop\Dev\AR-Keychain\Builds\AR Keychain_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 59Hz; virtual: 3840x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+desktop: 1920x1200 59Hz; virtual: 3840x1200 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.555365 ms
+UnloadTime: 0.560099 ms
 ARController: ARToolKit version 5.3.1 initialised.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
@@ -74,8 +75,9 @@ ARController: UpdateAR: Waiting for ARToolKit video.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2618 -> priority: 1 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1e0c -> priority: 1 
+  Thread -> id: 2f38 -> priority: 1 
 ARController: UpdateAR: ARToolKit video is running. Configuring Unity scene for video.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
@@ -108,15 +110,2316 @@ ARController (native): [error]Marker 0 now visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+InvalidCastException: Cannot cast from source type to destination type.
+  at PlayMovie.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
 ARController (native): [error]Marker 0 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 ARController (native): [error]Marker 0 now visible
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-ARController (native): [error]Marker 0 no longer visible
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
@@ -134,8 +2437,8 @@ ARController (native): [error]ARWrap::ARController::stopRunning(): exiting, retu
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 227.
-Total: 0.161429 ms (FindLiveObjects: 0.016865 ms CreateObjectMapping: 0.010842 ms MarkObjects: 0.127697 ms  DeleteObjects: 0.005421 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 236.
+Total: 0.161871 ms (FindLiveObjects: 0.016421 ms CreateObjectMapping: 0.007917 ms MarkObjects: 0.129028 ms  DeleteObjects: 0.008210 ms)
 
 ARController (native): [error]ARController::removeMarker(): called
  

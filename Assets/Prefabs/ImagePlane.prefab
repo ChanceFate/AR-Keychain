@@ -13,6 +13,7 @@ GameObject:
   - 23: {fileID: 2354956}
   - 114: {fileID: 11466670}
   - 114: {fileID: 11417050}
+  - 114: {fileID: 11479840}
   m_Layer: 9
   m_Name: ImagePlane
   m_TagString: Untagged
@@ -103,6 +104,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 987d60f87b4de9341a05a0745effbce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11479840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681a16a3154921240998b0ce05c6a4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &100100000

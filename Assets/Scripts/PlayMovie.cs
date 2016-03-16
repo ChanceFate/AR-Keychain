@@ -19,7 +19,9 @@ public class PlayMovie : MonoBehaviour {
         MovieTexture movie = (MovieTexture)r.material.mainTexture;
         movie.loop = true;
 
-        bool paused = true;
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = movie.audioClip;
+        
 
 #if UNITY_STANDALONE
 
@@ -30,15 +32,17 @@ public class PlayMovie : MonoBehaviour {
             if(movie.isPlaying)
             {
                 movie.Pause();
-                paused = true;
+                audio.Pause();
             }
             else
             {
                 movie.Play();
-                paused = false;
+                audio.Play(); 
             }
 
         }
+
+        Debug.Log("Audio is playing: " + audio.isPlaying);
 
 #endif
 

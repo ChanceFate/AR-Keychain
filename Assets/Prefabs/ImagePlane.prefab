@@ -165,8 +165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
-  - {fileID: 2100000, guid: 0dbcfbb67b3804849b1ab0ead40fca7e, type: 2}
   - {fileID: 2100000, guid: b1897fcb2f6da5942bd9db8b153884ec, type: 2}
+  - {fileID: 2100000, guid: 0dbcfbb67b3804849b1ab0ead40fca7e, type: 2}
   - {fileID: 2100000, guid: 2b740edf7238dd64098d712e18e57313, type: 2}
   coll: {fileID: 6441780}
   rend: {fileID: 2354956}
@@ -234,11 +234,11 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0dbcfbb67b3804849b1ab0ead40fca7e, type: 2}
+      objectReference: {fileID: 2100000, guid: b1897fcb2f6da5942bd9db8b153884ec, type: 2}
     - target: {fileID: 0}
       propertyPath: materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: b1897fcb2f6da5942bd9db8b153884ec, type: 2}
+      objectReference: {fileID: 2100000, guid: 0dbcfbb67b3804849b1ab0ead40fca7e, type: 2}
     - target: {fileID: 0}
       propertyPath: materials.Array.data[2]
       value: 

@@ -16,14 +16,17 @@ public class PlayMovie : MonoBehaviour {
     {
 
         Renderer r = GetComponent<Renderer>();
+
+#if UNITY_STANDALONE
+
         MovieTexture movie = (MovieTexture)r.material.mainTexture;
         movie.loop = true;
 
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = movie.audioClip;
-        
 
-#if UNITY_STANDALONE
+
+
 
         // If the space bar is pressed
         if (Input.GetButtonDown ("Jump"))
@@ -42,9 +45,17 @@ public class PlayMovie : MonoBehaviour {
 
         }
 
-        Debug.Log("Audio is playing: " + audio.isPlaying);
+#elif UNITY_ANDROID
+
+        if (Input.touchCount == 2 && 
+            Input.GetTouch(0).phase == TouchPhase.Began && 
+            r.material.mainTexture.name == "123-Hic-4")
+        {
+
+            Handheld.PlayFullScreenMovie("123-Hic-4.mp4");
+        }
 
 #endif
 
-    }
+        }
 }

@@ -4,15 +4,36 @@ using System.Collections;
 public class SwitchImage : MonoBehaviour
 {
 
-    public Material[] materials;
     public Collider coll;
     public Renderer rend;
 
+    private Material[] materials;
     private int index = 0;
 
     // Use this for initialization
     void Start()
     {
+
+#if UNITY_STANDALONE
+
+        // set size of material array
+        materials = new Material[3];
+
+        // Assign materials from "Assets/Resources/" to the material array
+        materials[0] = Resources.Load<Material>("Pirates!");
+        materials[1] = Resources.Load<Material>("DrummerBoy");
+        materials[2] = Resources.Load<Material>("123-Hic-4");
+
+#elif UNITY_ANDROID
+
+        // set size of material array
+        materials = new Material[2];
+
+        // Assign materials from "Assets/Resources/" to the material array
+        materials[0] = Resources.Load("Pirates!", typeof(Material)) as Material;
+        materials[1] = Resources.Load("DrummerBoy", typeof(Material)) as Material;
+
+#endif
 
         coll = GetComponent<Collider>();
 
@@ -66,7 +87,7 @@ public class SwitchImage : MonoBehaviour
         index++;        
         int matnum = (index/2) % (materials.Length);
 
-        Debug.Log(matnum);
+        Debug.Log(materials[matnum].name);
 
         rend.sharedMaterial = materials[matnum];
     }

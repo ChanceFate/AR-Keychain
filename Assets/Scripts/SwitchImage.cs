@@ -30,8 +30,8 @@ public class SwitchImage : MonoBehaviour
         materials = new Material[2];
 
         // Assign materials from "Assets/Resources/" to the material array
-        materials[0] = Resources.Load("Pirates!", typeof(Material)) as Material;
-        materials[1] = Resources.Load("DrummerBoy", typeof(Material)) as Material;
+        materials[0] = Resources.Load<Material>("Pirates!");
+        materials[1] = Resources.Load<Material>("DrummerBoy");
 
 #endif
 

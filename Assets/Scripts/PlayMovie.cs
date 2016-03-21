@@ -16,23 +16,19 @@ public class PlayMovie : MonoBehaviour {
     {
 
         Renderer r = GetComponent<Renderer>();
+        AudioSource audio = GetComponent<AudioSource>();
 
 #if UNITY_STANDALONE
 
-        MovieTexture movie = (MovieTexture)r.material.mainTexture;
-        movie.loop = true;
-
-        AudioSource audio = GetComponent<AudioSource>();
-        audio.clip = movie.audioClip;
-
-
-
-
         // If the space bar is pressed
-        if (Input.GetButtonDown ("Jump"))
+        if (Input.GetButtonDown ("Jump") && r.material.mainTexture.name == "123-Hic-4")
         {
+            MovieTexture movie = (MovieTexture)r.material.mainTexture;
+            movie.loop = true;
 
-            if(movie.isPlaying)
+            audio.clip = movie.audioClip;
+
+            if (movie.isPlaying)
             {
                 movie.Pause();
                 audio.Pause();

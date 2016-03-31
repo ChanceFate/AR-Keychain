@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3685738389
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 34b7969446baa3f15aaccb898f4f703f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e5b08bfd418aeabe6a11c6c7c01d0cfe
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 152
+  Script: {instanceID: 0}
+Assets:
+- Assets/123-Hic-4.MOV
+- Assets/Resources/123-Hic-4.mat
+Dependencies: []

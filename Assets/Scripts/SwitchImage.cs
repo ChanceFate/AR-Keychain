@@ -11,10 +11,25 @@ public class SwitchImage : MonoBehaviour
     private int index = 0;
 
     // Use this for initialization
-    void Start()
+    IEnumerator Start()
     {
 
 #if UNITY_STANDALONE
+
+        // load movietexture file
+        WWW www = WWW.LoadFromCacheOrDownload("file://" + Application.dataPath + "/AssetBundles/movietexture.unity3d", 1);
+
+        // Load and retrieve AssetBundle
+        AssetBundle bundle = www.assetBundle;
+
+        // Load movietexture asynchronously
+        AssetBundleRequest request = bundle.LoadAssetAsync("123-Hic-4.mat", typeof(Material));
+
+        // Wait for completion
+        yield return request;
+
+        // Get the reference to the loaded object
+        Material movTexture = request.asset as Material;
 
         // set size of material array
         materials = new Material[3];
@@ -22,7 +37,7 @@ public class SwitchImage : MonoBehaviour
         // Assign materials from "Assets/Resources/" to the material array
         materials[0] = Resources.Load<Material>("Pirates!");
         materials[1] = Resources.Load<Material>("DrummerBoy");
-        materials[2] = Resources.Load<Material>("123-Hic-4");
+        materials[2] = movTexture;
 
 #elif UNITY_ANDROID
 
